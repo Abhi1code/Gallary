@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gallary</string>
+    <string name="tooltitle">Image Gallary</string>
+    <string name="refresh">refresh</string>
+    <string name="nointernet">connection error</string>
+    <string name="transition">sharedelementtransition</string>
+</resources>
