@@ -119,6 +119,7 @@ public class MainActivity extends AppCompatActivity {
                                 imagerecyclerView.setAdapter(adapter);
                                 startviewpager();
                                 Errorhelper.controlmainactivity(imagerecyclerView,progressbar,errorlayout,1);
+                                adapter.runLayoutAnimation(imagerecyclerView);
                             }
                         }.execute();
 
