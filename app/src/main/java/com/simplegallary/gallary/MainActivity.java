@@ -120,6 +120,7 @@ public class MainActivity extends AppCompatActivity {
                                 startviewpager();
                                 Errorhelper.controlmainactivity(imagerecyclerView,progressbar,errorlayout,1);
                                 adapter.runLayoutAnimation(imagerecyclerView);
+                                Toast.makeText(MainActivity.this, "Long Press for multiple sharing", Toast.LENGTH_LONG).show();
                             }
                         }.execute();
 
